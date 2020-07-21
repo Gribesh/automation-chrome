@@ -9,4 +9,5 @@ def webauto():
     for url in URLS:
         print("opening urls " + url)
         wb.get(chrome_path).open(URLS)
+
 webauto()
