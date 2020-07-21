@@ -6,3 +6,6 @@ def webauto():
         "github.com/Gribesh",
         "gmail.com"
     )
+    for url in URLS:
+        print("opening urls " + url)
+        web.get(chrome_path).open(URLS)
