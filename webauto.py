@@ -1,4 +1,5 @@
 import webbrowser as wb
 
 def webauto():
-    chrome_path="/path/to/chrome"
+    chrome_path="/usr/bin/google-chrome"
+    
